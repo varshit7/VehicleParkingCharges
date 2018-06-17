@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "31900429843",
+    "firebase_url": "https://vehicleparking-2a8c1.firebaseio.com",
+    "project_id": "vehicleparking-2a8c1",
+    "storage_bucket": "vehicleparking-2a8c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:31900429843:android:b4c0f6fa3852977f",
+        "android_client_info": {
+          "package_name": "com.vehicel.track"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "31900429843-1r5548r2b6iuu926s40u6289ikrh0vvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjNo_o5Up0IG5PPZjSb_27mOCeo4NefSs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

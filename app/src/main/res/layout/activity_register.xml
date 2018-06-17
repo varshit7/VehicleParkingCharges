@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <TextView
+        android:id="@+id/RegisterPage"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:text="REGISTER"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <ScrollView
+        android:id="@+id/s"
+        android:layout_below="@+id/RegisterPage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/Layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/s">
+
+            <TextView
+                android:id="@+id/Email_Text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/Layout"
+                android:layout_marginTop="20dp"
+                android:gravity="center|left"
+                android:paddingLeft="25dp"
+                android:text="Email"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/segoeui"
+                tools:ignore="NotSibling" />
+
+            <EditText
+                android:id="@+id/EnterEmail1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/Email_Text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edt_bg"
+                android:drawableRight="@drawable/ic_email_black_24dp"
+                android:gravity="center|left"
+                android:hint="Email"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <!--  android:singleLine="true"
+    //Depricated-->
+
+            <!--  android:maxLines="1"
+    // Use This-->
+
+            <TextView
+                android:id="@+id/Password_Text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/EnterEmail1"
+                android:layout_marginTop="10dp"
+                android:gravity="center|left"
+                android:paddingLeft="25dp"
+                android:text="Password"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/segoeui"/>
+
+            <EditText
+                android:id="@+id/EnterPassword1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Password_Text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/edt_bg"
+                android:drawableRight="@drawable/ic_vpn_key_black_24dp"
+                android:gravity="center|left"
+                android:hint="Enter Password"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Name_Text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/EnterPassword1"
+                android:layout_marginTop="10dp"
+                android:gravity="center|left"
+                android:paddingLeft="25dp"
+                android:text="Name"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/segoeui"/>
+
+            <EditText
+                android:id="@+id/EnterName1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Name_Text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/edt_bg"
+                android:gravity="center|left"
+                android:hint="Enter Name"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Mobile_Text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/EnterName1"
+                android:layout_marginTop="10dp"
+                android:gravity="center|left"
+                android:paddingLeft="25dp"
+                android:text="Mobile"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/segoeui"/>
+
+            <EditText
+                android:id="@+id/EnterMobile1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/Mobile_Text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edt_bg"
+                android:drawableRight="@drawable/ic_phone_android_black_24dp"
+                android:gravity="center|left"
+                android:hint="Enter Mobile"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/Location_Text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/EnterMobile1"
+                android:layout_marginTop="10dp"
+                android:gravity="center|left"
+                android:paddingLeft="25dp"
+                android:text="Location"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/segoeui"/>
+
+            <EditText
+                android:id="@+id/EnterLocation1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/Location_Text"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edt_bg"
+                android:drawableRight="@drawable/ic_add_location_black_24dp"
+                android:gravity="center|left"
+                android:hint="Enter Location"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/Register"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/EnterLocation1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/btn_bg"
+                android:text="Register"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/Register" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

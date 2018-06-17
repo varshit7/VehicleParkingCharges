@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vehicel.track.OutgoingCameaActivity">
+
+
+
+    <ImageView
+        android:id="@+id/OutImg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/img"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:text="Vehicle Number"
+        android:gravity="center|left"
+        android:paddingLeft="10dp"
+        android:textColor="#000"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="40dp">
+
+    <EditText
+        android:id="@+id/VehicleNumber"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="0.9"
+        android:layout_marginRight="10dp"
+        android:text="Ap xx201"
+        android:gravity="center|left"
+        android:background="@drawable/edt_bg"
+        android:paddingLeft="10dp"
+        android:textColor="#015559"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="0.1"
+        android:id="@+id/Refresh"
+        android:src="@drawable/ic_cached_black_24dp"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Entered Time"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Entered Date"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/EnterTime1"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Enter time"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#015559"
+            android:textSize="20sp"
+            android:background="@drawable/edt_bg"/>
+
+
+        <TextView
+            android:id="@+id/EnterData1"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Enter Date"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#015559"
+            android:textSize="20sp"
+            android:background="@drawable/edt_bg"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Leaving Time"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Leaving Date"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/LeavingTime"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Leaving Time"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#015559"
+            android:textSize="20sp"
+            android:background="@drawable/edt_bg"/>
+
+
+        <TextView
+            android:id="@+id/LeavingDate"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Leaving Date"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#015559"
+            android:textSize="20sp"
+            android:background="@drawable/edt_bg"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Duration"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Amount Paid"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/Duration"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="200min"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#015559"
+            android:textSize="20sp"
+            android:background="@drawable/edt_bg"/>
+
+
+        <TextView
+            android:id="@+id/Amount"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="RS/- 200"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#015559"
+            android:textSize="20sp"
+            android:background="@drawable/edt_bg"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/Pay"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/btn_bg"
+        android:layout_gravity="center"
+        android:text="Pay"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

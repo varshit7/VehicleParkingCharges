@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vehicel.track.HomeActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:text="Home"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Incoming Vehicles"
+        android:gravity="center|left"
+        android:paddingLeft="15dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_marginTop="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_directions_car_black_24dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/ic_subdirectory_arrow_right_black_24dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/EnteredVehicles"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn2"
+        android:text="Entered Vehicles"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Outcoming Vehicles"
+        android:gravity="center|left"
+        android:paddingLeft="15dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_marginTop="20sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_subdirectory_arrow_left_black_24dp"
+            android:layout_marginTop="7dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_directions_car_black_241dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/LeavingVehicles"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn3"
+        android:text="Leaving Vehicles" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Transactions Details"
+        android:gravity="center|left"
+        android:paddingLeft="15dp"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_marginTop="20sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_bg"
+        android:textColor="#000"
+        android:id="@+id/Tran"
+        android:text="Check Transaction Details"/>
+
+
+
+</LinearLayout>

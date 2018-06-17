@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.vehicel.track.IncomingCameraActivity">
+
+    <ImageView
+        android:id="@+id/InImg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:text="Vehicle Number"
+        android:gravity="center|left"
+        android:paddingLeft="10dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/InVehiclenNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edt_bg"
+        android:gravity="center"
+
+        android:text="Ap xx20rt"
+        android:textColor="#015559"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Entered Time"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="Entered Date"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/EnterTime"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Enter time"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#015559"
+            android:textSize="20sp"
+            android:background="@drawable/edt_bg"/>
+
+
+        <TextView
+            android:id="@+id/EnterData"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Enter Date"
+            android:gravity="center|left"
+            android:paddingLeft="10dp"
+            android:textColor="#015559"
+            android:textSize="20sp"
+            android:background="@drawable/edt_bg"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/EnteredSubmit"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_margin="25dp"
+        android:background="@drawable/btn_bg"
+        android:layout_gravity="center"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
